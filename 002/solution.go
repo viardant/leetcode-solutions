@@ -9,8 +9,8 @@ package s002
  */
 
 type ListNode struct {
-	Val  int
-	Next *ListNode
+	Val  int       `json:"val"`
+	Next *ListNode `json:"next"`
 }
 
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
@@ -38,4 +38,8 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 		pv = nx
 	}
 	return origin
+}
+
+func AddTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
+	return addTwoNumbers(l1, l2)
 }

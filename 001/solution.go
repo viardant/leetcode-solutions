@@ -12,3 +12,7 @@ func twoSum(nums []int, target int) []int {
 
 	return []int{-1, -1}
 }
+
+func TwoSum(nums []int, target int) []int {
+	return twoSum(nums, target)
+}
