@@ -20,7 +20,7 @@ func main() {
 	api.Route(router)
 
 	server := &http.Server{
-		Addr:           ":8080",
+		Addr:           ":8888",
 		Handler:        router,
 		ReadTimeout:    10 * time.Second,
 		WriteTimeout:   10 * time.Second,
