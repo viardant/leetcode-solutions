@@ -5,7 +5,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"
-	s001 "github.com/viardant/leetcode-solutions/001"
+	s001 "github.com/viardant/leetcode-solutions/0001"
 )
 
 type post001REQUEST struct {
